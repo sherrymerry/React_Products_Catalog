@@ -22,8 +22,8 @@ const Checkout = ({ cart }) => {
                         ))}
                     </ul>
                     <p>Total: ${total}</p>
-                 <img src={thanks} alt="" />
-                 <button>Complete Purchase</button>
+                    <img src={thanks} alt="" />
+                    <button>Complete Purchase</button>
                 </div>
             )}
         </div>

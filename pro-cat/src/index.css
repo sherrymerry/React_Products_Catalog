@@ -139,7 +139,9 @@ h3 {
   padding: 20px;
   text-align: center;
 }
-
+.cart h2{
+  color: var(--secondary-color);
+}
 .cart ul {
   list-style: none;
   padding: 30px;
@@ -163,7 +165,9 @@ h3 {
 }
 
 .cart button:hover {
-  background-color: var(--button-color);
+  background-color: var(--card-background);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .checkout {
@@ -194,5 +198,7 @@ h3 {
 }
 
 .checkout button:hover {
-  background-color: var(--secondary-color);
+  background-color: var(--card-background);
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
 }
