@@ -1,5 +1,3 @@
-import React from 'react';
-import WOW from 'wowjs';
 import 'animate.css/animate.css';
 import 'wowjs/css/libs/animate.css';
 import thanks from "../assets/thankyou.jfif"
